@@ -15,8 +15,17 @@ including Selenium Server and `chromedriver`:
 npm install
 ```
 
+### 3. Install selenium
 
-### 3. Run (_tests_)<sup>2</sup>
+Install the *required* dependencies
+including Selenium Server and `chromedriver`:
+
+```sh
+npm run selenium:setup
+```
+
+
+### 4. Run (_tests_)<sup>2</sup>
 
 Run the Nightwatch tests:
 
