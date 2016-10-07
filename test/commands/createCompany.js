@@ -1,7 +1,7 @@
 module.exports.command = function (company) {
     var companyCreatePage = this.page.companyCreate();
     var companyOverviewPage = this.page.companyOverview();
-
+    debugger
     companyCreatePage.navigate()
         .waitForElementVisible('@createPageForm')
         .setValue('@inputName', company.name)

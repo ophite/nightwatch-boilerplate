@@ -41,7 +41,7 @@
       }
     },
     "local": {
-      "launch_url": "http://localhost:3030/#",
+      "launch_url": "http://localhost:3030",
       "selenium_port": 4444,
       "selenium_host": "127.0.0.1",
       "silent": true,

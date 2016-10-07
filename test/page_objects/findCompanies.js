@@ -12,11 +12,14 @@ module.exports = {
         companyListItem: {
             selector: '.company-list ul.list-group li.company-ticket'
         },
-        selectCountry: {
+        selectCountryMenu: {
             selector: '#headquartersCountry .Select-arrow-zone'
         },
         selectCountryMenuItem: {
-            selector: '#headquartersCountry .Select-menu-outer'
+            selector: '.Select-option:nth-child(19)'
+        },
+        companyCountry: {
+            selector: '.country-company'
         },
     }
 };
