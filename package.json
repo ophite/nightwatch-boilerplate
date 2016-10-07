@@ -10,6 +10,7 @@
     "test": "tests"
   },
   "scripts": {
+    "selenium:setup": "node test/selenium.setup.js",
     "postinstall": "node test/nightwatch.json",
     "test": "./node_modules/.bin/nightwatch --env local --config=test/nightwatch.json",
     "ie": "./node_modules/.bin/nightwatch -e ie11",
